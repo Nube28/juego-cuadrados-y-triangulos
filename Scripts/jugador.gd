@@ -12,7 +12,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x += 1
 	if Input.is_action_pressed("ui_left"):  # Tecla de mover izquierda
 		velocity.x -= 1
-	if Input.is_action_pressed("ui_down"):  # Tecla de mover abajo
+	if Input.is_action_pressed("ui_down"):  # Tecla de mover abajo 
 		velocity.y += 1
 	if Input.is_action_pressed("ui_up"):  # Tecla de mover arriba
 		velocity.y -= 1

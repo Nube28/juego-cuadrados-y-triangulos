@@ -7,3 +7,5 @@
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_6u31p")]
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
